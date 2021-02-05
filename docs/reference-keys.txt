@@ -1,6 +1,8 @@
 fig:nice-fig
+what-is-this-web-page
 learning-outcomes
 structure
+what-do-i-need-for-this-module
 intro
 next-steps
 next-chapter

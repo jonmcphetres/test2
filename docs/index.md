@@ -1,6 +1,6 @@
 --- 
-title: "My First GitBook"
-author: "Dr McPhetres"
+title: "Applied Statistics Example"
+author: "Dr Jonathon McPhetres"
 date: "2021-02-05"
 site: bookdown::bookdown_site
 documentclass: book
@@ -18,20 +18,49 @@ description: "This is a template. Use it to start a new course book."
 
 This is a course on statistics.
 
+## What is this web page?
+
+This is our "textbook" for the course. This page will document all of the code, examples, and activities we use during the lectures and during the tutorial sessions. It is designed to be a simple reference point.
+
 ## Learning outcomes
 
-By the end of this term, you will 
+By the end of this term, you will:
+
 * Understand basic statistical concepts
 * Be familiar with R-based computing
-* Be able to conduct basicv statistical analyses
+* Be able to conduct basic statistical analyses
 * Be able to report your findings in APA style using R-markdown
 
 ## Structure
 
-*Pre-lecture assignment*
-*Lecture*
-*Practical Exercise*
-*Tutorial Session*
+**1. Pre-lecture assignment**
+Prior to the lecture, you will be asked to complete a small (~5 min) assignment. Please bring the results to class.
+
+**2. Lecture**
+The lecture takes place on **Monday at 11-1** each week in the computer lab. During the lecture, we will
+
+**3. Practical Exercise**
+This is a hands-on activity to apply the skills you learned during the lecture. This will be assigned at the end of each lecture and should be completed prior to the tutorial session.
+
+**4. Tutorial Session**
+The tutorial session takes place on **Friday from 1-3pm** in the computer lab. During the tutorial session, we will go through the practical exercise step-by-step and solve any issues you may have encountered.
 
 
+## What do I need for this module?
+
+For this module, you will need some basic computer experience, the ability to troubleshoot on your own, a computer program, and a data file. 
+
+**1. Basic computer experience.** 
+
+You need to know how to download, save, change file formats, install programs, and operate your own computer. This can be Windows, Mac, or Linux, or anything. But this course does not provide basic computer support.
+
+**2. The ability to troubleshoot independently.**
+
+You will often encounter issues, unexpected problems, and many questions. As they relate to the content of the course, I am here to help. However, one goal of this course is to teach you how to solve problems on your own. So this course will require a level of independent problem solving ability. For example, a quick Google search can answer almost any questions.
+
+**3. R (and R-studio).** 
+Please download this and install it on your computer.
+
+**4. A data file.** 
+We will use one dataset for the whole term.
 
