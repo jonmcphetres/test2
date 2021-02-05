@@ -3,3 +3,4 @@ course-aims
 intended-learning-outcomes
 intro
 next-steps
+next-chapter
