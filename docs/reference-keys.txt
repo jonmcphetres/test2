@@ -1,8 +1,9 @@
 fig:nice-fig
 what-is-this-web-page
 learning-outcomes
-structure
+course-structure
 what-do-i-need-for-this-module
+schedule-and-timetable
 intro
 next-steps
 next-chapter
