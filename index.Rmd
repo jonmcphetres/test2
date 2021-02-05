@@ -1,0 +1,41 @@
+--- 
+title: "My First GitBook"
+author: "Dr McPhetres"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a template. Use it to start a new course book."
+---
+
+```{r cite-packages, include = FALSE}
+# automatically create a bib database for R packages
+# add any packages you want to cite here
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'tidyverse'
+), 'packages.bib')
+
+```
+
+
+
+# Overview {-}
+
+Overview goes here.
+
+## Course Aims
+
+* List out the aims
+* The next aim
+* etc
+
+## Intended Learning Outcomes
+
+By the end of this course students will be able to:
+
+* Do this
+* Do that
+* And this
+

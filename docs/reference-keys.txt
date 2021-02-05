@@ -1,0 +1,5 @@
+fig:nice-fig
+course-aims
+intended-learning-outcomes
+intro
+next-steps
