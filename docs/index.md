@@ -17,9 +17,11 @@ description: "This is the online course textbook for Applied Statistics at Durha
 
 Welcome to Applied Statistics in Psychology at Durham University.
 
-Module Leader:
+Module Leader:Dr. Jonathon McPhetres
 
-Email:
+Email:jonathon.mcphetres@durham.ac.uk
+
+Office hours: TBD
 
 
 ## What is this web page?
@@ -78,18 +80,18 @@ Each session will yield a new chapter in this textbook, accessible via the menu 
 
 **Week 2. Descriptive statistics**
 
-**Week 3. Introduction to Markdown Reporting**
+**Week 3. Reproducible Reporting with R Markdown**
 
 **Week 4. Power Analysis**
 
 **Week 5. Data Visualisation**
 
-**Week 6. Linear Models Part 1**
+**Week 6. Introduction to inference**
 
-**Week 7. Linear Models Part 2**
+**Week 7. Linear Models Part 1**
 
-**Week 8. Linear Models Part 3**
+**Week 8. Linear Models Part 2**
 
-**Week 9. Linear Models Part 4**
+**Week 9. Within-subjects designs**
 
 **Week 10. Principal Components Analysis**
