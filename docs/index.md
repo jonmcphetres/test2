@@ -16,19 +16,22 @@ description: "This is a template. Use it to start a new course book."
 
 # Overview {-}
 
-Overview goes here.
+This is a course on statistics.
 
-## Course Aims
+## Learning outcomes
 
-* List out the aims
-* The next aim
-* etc
+By the end of this term, you will 
+* Understand basic statistical concepts
+* Be familiar with R-based computing
+* Be able to conduct basicv statistical analyses
+* Be able to report your findings in APA style using R-markdown
 
-## Intended Learning Outcomes
+## Structure
 
-By the end of this course students will be able to:
+*Pre-lecture assignment*
+*Lecture*
+*Practical Exercise*
+*Tutorial Session*
 
-* Do this
-* Do that
-* And this
+
 

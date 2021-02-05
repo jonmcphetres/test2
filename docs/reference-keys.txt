@@ -1,6 +1,6 @@
 fig:nice-fig
-course-aims
-intended-learning-outcomes
+learning-outcomes
+structure
 intro
 next-steps
 next-chapter
