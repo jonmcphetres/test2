@@ -2,7 +2,103 @@
 
 This is the next chapter
 
+I'm going to allow error messages for this tutorial:
+```{r}
+knitr::opts_chunk$set(error = TRUE)
+```
+
+
 ```{r}
 data.frame(3,4,5)
 ```
+
+R is simple: you tell it to do something and it does it.
+```{r}
+5+5
+```
+
+We can save that information to an object for later use by using the assignment operator
+```{r}
+answer <- 5+5
+```
+
+And then if we want to see the answer, we must tell R to print the contents of that value:
+```{r}
+answer
+```
+
+More complicated operations require packages. These packages are installed within R.
+You only need to install a package once, but whenever you want to use it you must load the library.
+```{r}
+#install.packages("dplyr)
+```
+
+To load a package:
+```{r}
+library(dplyr)
+```
+
+It's probably best to keep these all at the beginning of the markdown file.
+
+Let's make a data frame again and save it to an object called df.
+```{r}
+df <- data.frame(id = c(1,2,3),
+           x = c(3,4,5),
+           y = c(6,7,8))
+```
+
+Now let's view the object df:
+```{r}
+df
+```
+
+or
+```{r}
+View(df)
+```
+
+We can do some things with this data. For example, we could calculate a new variable:
+```{r}
+m = x+y
+```
+But notice that script doesn't work. That's because we don't have an object called 'x' or 'y'. In our environment, we only have an object called df. Within df we have 'columns' called 'x' and 'y' so we must tell R where these are using the $ operator:
+```{r}
+df$x
+```
+
+So, if we want to do some math with these variables, we have to write the equation differently:
+```{r}
+m = df$x + df$y
+```
+One more thing. You'll notice it created a new value called 'm' in our environment. This isn't very useful because we want 'm' to go into our existing dataset 'df', right?
+So we must tell R to put m into df, again using the $ operator:
+```{r}
+df$m = df$x + df$y
+```
+
+Now you'll see that df has 4 variables (instead of just 3). Let's check our data frame and make sure it worked:
+```{r}
+df
+```
+
+
+
+When you're ready to print some results to a table, use the Flextable package.
+```{r}
+library(flextable)
+```
+
+It will make print-ready tables in Word.
+```{r}
+flextable::flextable(df)
+```
+
+```{r}
+#render the book with  bookdown::render_book("index.Rmd") and them commit.
+```
+
+
+
+
+
 
