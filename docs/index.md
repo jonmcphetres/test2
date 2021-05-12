@@ -1,7 +1,7 @@
 --- 
 title: "Msc Applied Statistics"
 author: "Dr Jonathon McPhetres"
-date: "2021-02-17"
+date: "2021-05-12"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -17,7 +17,7 @@ description: "This is the online course textbook for Applied Statistics at Durha
 
 Welcome to Applied Statistics in Psychology at Durham University.
 
-Module Leader:Dr. Jonathon McPhetres
+Term 1 Module Leader:Dr. Jonathon McPhetres
 
 Email:jonathon.mcphetres@durham.ac.uk
 
